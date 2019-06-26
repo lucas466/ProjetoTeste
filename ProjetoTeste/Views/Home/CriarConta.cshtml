@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<!--
+Template Name: Edgpress
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="pt-br">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+    <title>Compre1Bitcoin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="~/Content/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row1">
+        <header id="header" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <h1><a href="/Home/Index">Compre1Bitcoin</a></h1>
+            <p> área completa de negócios de Bitcoin</p>
+            <!-- ################################################################################################ -->
+        </header>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row4">
+        <nav id="mainav" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <ul class="clear">
+                <li><a a href="/Home/Index">Início</a></li>
+                <li><a href="BitcoinPrecos">Ver preços</a></li>
+                <li class="active"><a href="/Home/EntrarConta">Criar/acessar Conta</a></li>
+                <li><a href="/Home/SobreBitcoin">Oque é o bitcoin</a></li>
+                <li><a href="/Home/SobreNos">Sobre nós</a></li>
+            </ul>
+            <!-- ################################################################################################ -->
+        </nav>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper bgded overlay">
+        <section id="breadcrumb" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <h6 class="heading">Criar uma nova conta</h6>
+            <!-- ################################################################################################ -->
+        </section>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+
+    <div class="wrapper row3">
+        <main class="hoc container clear">
+            <!-- main body -->
+            <!-- ################################################################################################ -->
+
+            <h2><strong>@(ViewBag.Userad)</strong></h2>
+
+            <div class="content">
+                <!-- ################################################################################################ -->
+                <h1>Preencha todos os campos abaixo para criar uma conta</h1>
+
+                <div class="content">
+
+                    <div id="comments">
+
+                        <form action="CriarConta" method="post">
+                            <div class="one_third first">
+                                <label for="nome">Nome <span>*</span></label>
+                                <input type="text" name="nome" id="nome" value="" size="22" required>
+                            </div>
+                            <div class="one_third">
+                                <label for="email">E-mail <span>*</span></label>
+                                <input type="email" name="email" id="email" value="" size="22" required>
+                            </div>
+                            <div class="one_third">
+                                <label for="telefone">Telefone<span>*</span></label>
+                                <input type="number" name="telefone" id="telefone" value="" size="22" required>
+                            </div>
+
+                            <div class="one_third first">
+                                <label for="cartao">Cartao<span>*</span></label>
+                                <input type="number" name="cartao" id="cartao" value="" size="22" required>
+                            </div>
+                            <div class="one_third">
+                                <label for="senha1">Senha<span>*</span></label>
+                                <input type="password" name="senha1" id="senha1" value="" size="22" required>
+                            </div>
+                            <div class="one_third">
+                                <label for="senha2">Confirmar senha<span>*</span></label>
+                                <input type="password" name="senha2" id="senha2" value="" size="22" required>
+                            </div>
+
+                            <script>
+
+
+                            </script>
+
+                            <div>
+                                <input type="submit" name="submit" value="cadastrar">
+                                &nbsp;
+                                <input type="reset" name="reset" value="resetar">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- / main body -->
+            <div class="clear"></div>
+        </main>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row4">
+        <footer id="footer" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <div class="one_third first">
+                <h6 class="heading">Localização e contatos</h6>
+                <ul class="nospace btmspace-30 linklist contact">
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <address>
+                            Rua Brasil, Campinas, Número: 521
+                        </address>
+                    </li>
+                    <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
+                    <li><i class="fa fa-envelope-o"></i> info@Compre1Bitcoin.com</li>
+                </ul>
+                <ul class="faico clear">
+                    <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+                </ul>
+            </div>
+            <div class="one_third">
+                <h6 class="heading">Últimas notícias</h6>
+                <ul class="nospace linklist">
+                    <li>
+                        <article>
+                            <h2 class="nospace font-x1"><a href="#">Talvez você se interesse</a></h2>
+                            <time class="font-xs block btmspace-10" datetime="2045-04-06">06/05/2019</time>
+                            <p class="nospace">Bitcoin ainda vale a pena?</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h2 class="nospace font-x1"><a href="#">Talvez você se interesse</a></h2>
+                            <time class="font-xs block btmspace-10" datetime="2045-04-05">07/03/2018</time>
+                            <p class="nospace">Qual a melhor maneira de investir seu dinheiro em Bitcoins?</p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+            <div class="one_third">
+                <h6 class="heading">Ficou com alguma dúvida?</h6>
+                <p class="nospace btmspace-30">Mande nos um e-mail, que reponderemos o mais rápido possível</p>
+                <form method="post" action="#">
+                    <fieldset>
+                        <legend>Newsletter:</legend>
+                        <input class="btmspace-15" type="text" value="" placeholder="Nome">
+                        <input class="btmspace-15" type="text" value="" placeholder="Email">
+                        <button type="submit" value="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </div>
+            <!-- ################################################################################################ -->
+        </footer>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row5">
+        <div id="copyright" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <p class="fl_left">Copyright &copy; 2019 - All Rights Reserved - <a href="#">Compre1Bitcoin</a></p>
+            <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+            <!-- ################################################################################################ -->
+        </div>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+    <!-- JAVASCRIPTS -->
+    <script src="~/Content/layout/scripts/jquery.min.js"></script>
+    <script src="~/Content/layout/scripts/jquery.backtotop.js"></script>
+    <script src="~/Content/layout/scripts/jquery.mobilemenu.js"></script>
+    <script>
+        window.alert("Este site é apenas um projeto, portando não é permitido o uso de dados reais. \nUse o número do cartão, telefone, email e nome com dados fictícios.\nNos campos: cartão e telefone só permitido números com até 3 algarismos.");
+    </script>
+</body>
+</html>
